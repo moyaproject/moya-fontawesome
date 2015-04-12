@@ -1,0 +1,17 @@
+<moya xmlns="http://moyaproject.com"
+      xmlns:links="http://moyaproject.com/links"
+      xmlns:html="http://moyaproject.com/html">
+
+    <content libname="content.base">
+        <links:get dst="navlinks" />
+    </content>
+
+    <content libname="content.fontawesome.demo" extends="#content.base">
+        <include-css path="css/font-awesome.min.css" from="moya.fontawesome" />
+        <section name="body">
+            <node template="/demo.html"/>
+        </section>
+    </content>
+
+</moya>
+

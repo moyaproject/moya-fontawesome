@@ -1,0 +1,10 @@
+<moya xmlns="http://moyaproject.com">
+
+    <!-- Libraries will typically define a mountpoint to add URLs -->
+    <mountpoint name="main">
+        <url route="/">
+            <serve-content content="#content.fontawesome.demo"/>
+        </url>
+    </mountpoint>
+
+</moya>
